@@ -16,69 +16,37 @@ const sampleStats = {
   categoryStats: [
     {
       categoryId: "1",
-      categoryName: "Mathematics",
+      categoryName: "Communication Skills",
       attempts: 4,
-      averageScore: 82.5,
-      lastAttempt: "2023-11-15T14:30:00Z"
+      averageScore: 90.0,
     },
     {
       categoryId: "2",
-      categoryName: "Science",
+      categoryName: "Communication Skills [ English ]",
       attempts: 3,
       averageScore: 75.0,
-      lastAttempt: "2023-11-10T09:15:00Z"
     },
     {
       categoryId: "3",
-      categoryName: "History",
+      categoryName: "Mathematical and Problem Solving",
       attempts: 2,
       averageScore: 65.0,
-      lastAttempt: "2023-10-28T16:45:00Z"
     },
     {
       categoryId: "4",
-      categoryName: "English",
+      categoryName: "Life and Career Skills",
       attempts: 3,
       averageScore: 85.0,
-      lastAttempt: "2023-11-12T11:20:00Z"
     }
   ],
   recentAttempts: [
     {
       id: "1",
-      quizTitle: "Algebra Basics",
-      categoryName: "Mathematics",
+      quizTitle: "CS Module 1",
+      categoryName: "Communication Skills",
       score: 85,
-      createdAt: "2023-11-15T14:30:00Z"
+      createdAt: "2025-05-02T09:15:00Z"
     },
-    {
-      id: "2",
-      quizTitle: "Chemical Reactions",
-      categoryName: "Science",
-      score: 70,
-      createdAt: "2023-11-10T09:15:00Z"
-    },
-    {
-      id: "3",
-      quizTitle: "World War II",
-      categoryName: "History",
-      score: 65,
-      createdAt: "2023-10-28T16:45:00Z"
-    },
-    {
-      id: "4",
-      quizTitle: "Grammar Test",
-      categoryName: "English",
-      score: 90,
-      createdAt: "2023-11-12T11:20:00Z"
-    },
-    {
-      id: "5",
-      quizTitle: "Geometry Quiz",
-      categoryName: "Mathematics",
-      score: 80,
-      createdAt: "2023-11-05T13:10:00Z"
-    }
   ]
 };
 

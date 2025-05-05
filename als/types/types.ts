@@ -35,4 +35,20 @@ interface IOption {
     isCorrect: boolean;
 }
 
+export interface IGameCategory {
+    id: string;
+    name: string;
+    description: string;
+    image?: string;
+    games?: IGame[];
+  }
+  
+  export interface IGame {
+    id: string;
+    name: string;
+    description: string;
+    categoryId: string;
+    image?: string;
+  }
+
 export type { ICategory, IQuiz, IQuestion, IOption, IResponse, CategoryStat};

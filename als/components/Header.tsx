@@ -30,6 +30,11 @@ function Header() {
             icon: chart,
             link: "/stats",
         },
+        {
+            name: "Games",
+            icon: "🎮",
+            link: "/games",
+        },
     ];
         
   return (
